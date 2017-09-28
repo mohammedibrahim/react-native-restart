@@ -8,38 +8,23 @@ Restart Your React Native Project
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [React Native Restart](#react-native-restart)
-	- [Installing The Library](#installing-the-library)
-		- [RN < 0.40](#rn-040)
-		- [RN >= 0.40](#rn-040)
-	- [Automatic Installation](#automatic-installation)
-	- [Manual Android Installation](#manual-android-installation)
+	- [Installation](#installation)
+	- [Android Installation](#android-installation)
 		- [RN < 0.29](#rn-029)
 		- [RN >= 0.29](#rn-029)
-	- [Manual iOS Installation](#manual-ios-installation)
+	- [iOS Installation](#ios-installation)
 		- [Importing The Library](#importing-the-library)
+		- [Adding the Code](#adding-the-code)
 	- [Usage](#usage)
 	- [CREDITS](#credits)
 	- [TODO](#todo)
 
 <!-- /TOC -->
 
-## Installing The Library
-
-Using React Native version below 0.40? use version 0.0.1. Otherwise, use version 0.0.2.
-
-### RN < 0.40
-
-`npm install react-native-restart@0.0.1 --save`
-
-### RN >= 0.40
-
+## Installation
 `npm install react-native-restart --save`
 
-## Automatic Installation
-
-`react-native link react-native-restart` or `npm install -g rnpm && rnpm link react-native-restart`
-
-## Manual Android Installation
+## Android Installation
 
 In `android/settings.gradle`
 ```gradle
@@ -122,7 +107,7 @@ public class MainApplication extends Application implements ReactApplication {
 
 ```
 
-## Manual iOS Installation
+## iOS Installation
 
 ### Importing The Library
 

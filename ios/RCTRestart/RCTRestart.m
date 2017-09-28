@@ -1,4 +1,4 @@
-#import "RCTRestart.h"
+    #import "RCTRestart.h"
 #import <React/RCTBridge.h>
 
 @interface RCTRestart()
